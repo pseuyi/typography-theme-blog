@@ -1,0 +1,5 @@
+*.sw*
+dist/
+lib/
+node_modules/
+package-lock.json
