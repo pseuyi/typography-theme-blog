@@ -1,0 +1,23 @@
+{
+  "name": "typography-theme-blog",
+  "version": "1.0.1",
+  "description": "a typography theme",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src/ -d lib/",
+    "prepublish": "yarn run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/preset-flow": "^7.0.0",
+    "flow-bin": "^0.111.3"
+  },
+  "dependencies": {
+    "gray-percentage": "^2.0.0",
+    "typography-plugin-code": "^0.16.19"
+  }
+}
