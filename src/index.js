@@ -40,18 +40,18 @@ const theme: OptionsType = {
     a: {
       textDecoration: 'none',
       borderBottom: 'solid 1px blue',
-      padding: 0 rhythm(1 / 6),
+      padding: `0 ${rhythm(1 / 6)}`,
     },
     'a:visited': {
       color: 'darkblue',
       borderBottom: `solid ${rhythm(1 / 6)} darkblue`,
-      padding: 0 rhythm(1 / 6),
+      padding: `0 ${rhythm(1 / 6)},`
     },
     blockquote: {
       ...scale(1 / 4),
       borderLeft: `${rhythm(1 / 6)} solid`,
       borderColor: gray(93),
-      padding: rhythm(2 / 3) rhythm(1 / 3),
+      padding: `${rhythm(2 / 3)} ${rhythm(1 / 3)}`,
     },
     'blockquote > :last-child': {
       marginBottom: 0,
