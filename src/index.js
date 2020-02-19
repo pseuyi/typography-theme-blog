@@ -37,12 +37,8 @@ const theme: OptionsType = {
       fontWeight: options.bodyWeight,
       textTransform: 'uppercase',
     },
-    a: {
-      padding: `0 ${rhythm(1 / 6)}`,
-    },
     'a:visited': {
       color: 'darkblue',
-      padding: `0 ${rhythm(1 / 6)}`,
     },
     blockquote: {
       ...scale(1 / 4),
