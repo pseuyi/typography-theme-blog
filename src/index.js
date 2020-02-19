@@ -38,14 +38,11 @@ const theme: OptionsType = {
       textTransform: 'uppercase',
     },
     a: {
-      textDecoration: 'none',
-      borderBottom: 'solid 1px blue',
       padding: `0 ${rhythm(1 / 6)}`,
     },
     'a:visited': {
       color: 'darkblue',
-      borderBottom: `solid ${rhythm(1 / 6)} darkblue`,
-      padding: `0 ${rhythm(1 / 6)},`
+      padding: `0 ${rhythm(1 / 6)}`,
     },
     blockquote: {
       ...scale(1 / 4),
